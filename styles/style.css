@@ -1,0 +1,245 @@
+.border-underline{
+    border-bottom: 1px solid black;
+}
+
+.header{
+    margin-top: 92px;
+}
+.header__nav{
+    display: grid;
+    grid-template-columns: 391.5px 1fr 240px;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.header__menu{
+    display: flex;
+    gap: 13px;
+    list-style-type: none;
+
+}
+.image-with-margin {
+    width: 138px;
+    margin-left: 39px;
+}
+
+.header__item {
+    font-size: 18px; 
+    font-family: 'Raleway', sans-serif;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.circle::before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.header__link{
+    text-decoration: none;
+}
+.contacts{
+    width: 240px;
+    font-style: normal;
+}
+.contacts a {
+    text-underline-offset: 4px;
+}
+.contacts__item {
+    font-size: 18px; 
+    font-family: 'Raleway', sans-serif;
+    line-height: 24.3px;
+    }
+.contacts__list{
+    list-style-type: none;
+}
+.introduction{
+margin-top: 92px;
+background-image: url('../images/cover.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+padding: 165px 50px 50px 50px;
+}
+
+.introduction__title{
+    color: rgb(255, 255, 255); font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+.introduction__word{
+
+}
+.mt{
+    margin-top: 17px ;
+}
+.last__letter{
+    letter-spacing:normal;
+}
+.introduction__word-center{
+    text-align: center;
+}
+.introduction__word-end{
+    text-align: right;
+}
+
+.introduction__footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top:106px;
+color: white;
+text-transform: uppercase;
+font-weight: normal;
+}
+.introduction__subtitle {
+    word-spacing: 17px;
+    font-size: 22px;
+    line-height: 28px;
+}
+.introduction__button {
+    border: 1px solid currentColor;
+    color: white;
+    padding: 12px 32px 11px 31px;
+    background-color: transparent ;
+    font-size: 22px;
+}
+.lots{
+   width: 1052px; 
+   margin: 0 auto;
+   margin-top: 180px;
+}
+.loots__title{
+    background-size: bold;
+    font-size: 40px;
+}
+.loots__margine-left{
+    margin-left: 39px;
+}
+.loots__card-list{
+    list-style-type: none;
+    display: flex;
+    gap: 26px;
+    margin-top: 28px;
+}
+.loots__card{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 334px;
+    min-height: 596px;
+    padding: 48px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.loots__subtitle{
+    text-decoration: underline;
+    color: white;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    background-size: bold;
+    display: flex;
+    text-transform: uppercase;
+ 
+}
+.loots__text{
+    color: white;
+    font-family: 'Raleway', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: Regular;
+    font-size: 20px;
+    line-height: 120%;
+}
+.loots__card-start{
+    background-image: url('../images/card-lot-01.jpg');
+
+}
+.loots__card-center{
+    background-image: url('../images/card-lot-02.jpg');
+}
+.loots__card-end{
+    background-image: url('../images/card-lot-03.jpg');
+}
+.loots__link{
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+    display: block;
+    width: max-content;
+}
+.about{
+    display: flex;
+    margin-top: 150px;
+    gap: 73px;
+}
+.about__logo{
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
+.about__logo-img{
+    width: 148px;
+    height: 114px;
+}
+.about__end{
+
+}
+.about__title{
+    background-size: bold;
+    font-size: 40px;
+    margin-top: 104px;
+
+}
+.about__text{
+    font-size: 20px;
+    display: flex;
+    margin-top: 99px;
+    width: 688px;
+    
+}
+.about__text-end{
+    font-size: 20px;
+    display: flex;
+    margin-top: 25px;
+    width: 693px;
+    
+}
+.footer{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+.footer__social-medias{
+    list-style-type: none;
+    display: flex;
+    gap: 48px;
+}
+.footer__social-media{
+    width: 48px;
+    height: 48px;
+}
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__menu{
+    list-style-type: none;
+    text-align: center;
+}
+.footer__item{
+    font-size: 18px;
+}
+.footer__link{
+    text-decoration: none;
+}
